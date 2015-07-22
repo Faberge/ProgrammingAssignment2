@@ -19,8 +19,8 @@ m <- NULL
   setsolve <- function(solve) m <<- solve
   getsolve <- function() m
   list(set = set, get = get,
-       setsolve = setsolve,
-       getsolve = getsolve)
+  setsolve = setsolve,
+  getsolve = getsolve)
 }
 
 
