@@ -12,6 +12,7 @@
 ##get matrix
 ##set inverted matrix 
 ##get inverted matrix
+
 makeCacheMatrix <- function(x = matrix()) {
 m <- NULL
   set <- function(y) {
@@ -25,7 +26,6 @@ m <- NULL
        setsolve = setsolve,
        getsolve = getsolve)
 }
-
 
 ## Write a short comment describing this function
 
